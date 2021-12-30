@@ -1,0 +1,314 @@
+#add-class {
+  /* margin: 20px; */
+  background-color: #fff;
+  min-width: 1050px;
+}
+.currentTitle{
+  font-size: 13px;
+  padding: 4px 0;
+  background: #f8fbfb;
+}
+.currentTitle label{
+  font-size: 14px;
+  color: #000;
+}
+#add-class .add-con-box {
+  padding: 10px;
+}
+
+#add-class .title {
+  font-size: 13px;
+  color: #000;
+  padding: 4px 0;
+  background: #f8fbfb;
+}
+
+#add-class .content-war {
+  margin-bottom: 15px;
+}
+
+#add-class .content-war span {
+  font-size: 12px;
+}
+
+#add-class .content-war .content-war-span {
+  display: inline-block;
+  width: 108px;
+  height: 32px;
+  line-height: 32px;
+  text-align: right;
+  margin-right: 14px;
+}
+
+#add-class .content-war .content-good {
+  padding-left: 0px;
+  display: inline-block;
+}
+
+#add-class .content-war p {
+  margin-left: 122px;
+  padding: 8px 0 0 0;
+  color: #888;
+}
+
+#add-class .img-add {
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  overflow: initial;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#add-class .img-add .imgcalssify {
+  height: 50px;
+  float: left;
+  position: relative;
+  z-index: 20;
+}
+
+#add-class .img-add .imgcalssify-content {
+  position: relative;
+}
+
+#add-class .img-add .imgcalssify img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#add-class .img-add .imgcalssifyselect {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+#add-class .img-add .imgcalssify .calssifydelete {
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+#add-class .img-add .imgcalssify .calssifydelete i {
+  font-size: 15px;
+
+}
+
+#add-class .img-add .imgselect {
+  height: 50px;
+  width: 50px;
+
+}
+
+#add-class .img-add .imgselect .fileshowbtn {
+  height: 50px;
+  width: 50px;
+  border: 1px dotted #ccc;
+  border-radius: 5px;
+  line-height: 50px;
+}
+
+#add-class .select-btn {
+  margin-left: 122px;
+  margin-bottom: 10px;
+}
+
+#add-class .select-btn .ad-item {
+  width: 600px;
+  height: 120px;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#add-class .select-btn .ad-item .ad-item-delete {
+  width: 26px;
+  height: 27px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 0;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#add-class .select-btn .ad-item .ad-item-l {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 25px;
+}
+
+#add-class .select-btn .ad-item .ad-item-r {
+  float: left;
+
+}
+
+#add-class .select-btn .ad-item .ad-item-r .adimgurl {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+#add-class .select-btn .ad-item .ad-item-r .adimgurl .adimgurl-l {
+  width: 300px;
+  float: left;
+
+}
+
+#add-class .select-btn .ad-item .ad-item-r .adimgurl .getchangeadbtn {
+  float: left;
+  width: 80px;
+  height: 32px;
+  border-radius: 4px;
+  position: relative;
+}
+
+#add-class .select-btn .ad-item .ad-item-r .adimgurl .getchangeadbtn-txt {
+  background-color: #0083b0;
+  border-color: #0083b0;
+  position: absolute;
+  width: 86px;
+  height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 32px;
+  color: #fff;
+}
+
+#add-class .select-btn .ad-item .ad-item-r .adimgurl .imgselect {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#add-class .select-btn .ad-item .ad-item-r .adimgurl .fileshowbtn {
+  opacity: 0;
+  width: 86px;
+  height: 32px;
+}
+
+#add-class .select-btn .ad-item .ad-item-l img {
+  width: 86px;
+  height: 80px;
+}
+
+#add-class .select-single {
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+#add-class .img-left {
+  float: left;
+}
+
+#add-class .img-left img {
+  display: inline-block;
+  height: 60px;
+  width: 100px;
+}
+
+#add-class .img-box img {
+  height: 100px;
+  width: 130px;
+}
+
+#add-class .con-right {
+  float: left;
+  margin-left: 30px;
+}
+
+#add-class .input-box {
+  font-size: 0;
+}
+
+#add-class .con-right .input {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+#add-class .con-right p {
+  margin: 5px 0;
+}
+
+#add-class .select-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  right: 0px;
+  top: 0px;
+}
+
+#add-class .icon-bg {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#add-class .add-img {
+  margin-left: 122px;
+  text-align: center;
+  display: block;
+  height: 80px;
+}
+
+#add-class .border-img {
+  border: 1px dashed #ccc;
+  cursor: pointer;
+  width: 100%;
+  height: 80px;
+}
+
+#add-class .border-img .getimgad {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#add-class .border-img .getimgad .fileshowbtn {
+  width: 100%;
+  height: 80px;
+  opacity: 0;
+}
+
+#add-class .border-img .md-add-icon {
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#add-class .border-img .md-add-icon i {
+  font-size: 26px;
+  margin-right: 5px;
+
+}
+
+#add-class .footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#add-class .footer button {
+  margin-right: 5px;
+  width: 80px;
+}
+
+/* 图片选择的样式 */

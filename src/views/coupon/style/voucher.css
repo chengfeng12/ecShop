@@ -1,0 +1,39 @@
+.issuing-voucher {
+  width: 100%;
+  height: 100%;
+}
+.issuing-voucher .currentTitle {
+  font-size: 13px;
+  color: #000;
+  padding: 4px 0;
+  background: #f8fbfb;
+}
+.issuing-voucher .title {
+  /* height: 30px;
+  line-height: 30px;
+  text-indent: 20px;
+  font-size: 16px; */
+}
+.issuing-voucher .tab {
+  /* height: 1000px;
+  background: #f3f3f3;
+  padding-top: 16px;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9; */
+}
+
+.issuing-voucher .item1 {
+  /* border-bottom: 1px solid #c9c9c9;
+  padding-bottom: 16px;
+  padding-left: 16px; */
+}
+
+.issuing-voucher .fullBtn {
+  margin-left: 230px;
+}
+.issuing-voucher .mar-le {
+    margin-left: 10px;
+}
+.issuing-voucher .item2 {
+    margin-top: 16px;
+}

@@ -1,0 +1,168 @@
+.spec-seting {
+    .mar-right {
+        margin-right: 10px;
+    }
+    .span-title {
+        display: inline-block;
+        width: 120px;
+        cursor: pointer;
+        text-overflow: -o-ellipsis-lastline;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        position: relative;
+        word-break: break-all;
+    }
+    p {
+        text-align: center;
+    }
+    span {
+        display: inline-block;
+        text-align: center;
+    }
+    img {
+        display: block;
+        width: 40px;
+        height: 30px;
+    }
+    .placeholder {
+        height: 26px;
+        line-height: 26px;
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .sync {
+        border: 1px solid #dcdee2;
+        border-radius: 3px;
+        // padding: 3px 1px;
+        height: 24px;
+        line-height: 24px;
+        width: 30px;
+
+    }
+    .content {
+        overflow: auto;
+        .content-line {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            .title-list {
+                .title-box, .name-list {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: row;
+                }
+            }
+        }
+        .img-list {
+            .shareimg {
+                .span-title, .img-titles, .img-row {
+                    min-width: 80px;
+                }
+            }
+            .img-titles {
+                min-width: 120px;
+            }
+            .item-cons {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+            }
+            .img-row {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                min-width: 120px;
+            }
+            .banners {
+                .img-row {
+                    min-width: 350px;
+                    .temcontainers {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+            .img-center {
+                justify-content: center;
+            }
+            .img-boxs {
+                .temcontainers {
+                    position: relative;
+                    .del-icons {
+                        position: absolute;
+                        z-index: 2;
+                        top: -8px;
+                        right: 4px;
+                        span {
+                            // display: inline-block;
+                            cursor: pointer;
+                            color: #fff;
+                            background-color: #666;
+                            width: 16px;
+                            height: 16px;
+                            line-height: 16px;
+                            font-size: 13px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+                .img-row {
+                    img {
+                        margin: 0 10px 0 0;
+                    }
+                }
+            }
+            .imgselectbuttons {
+                padding: 3px;
+                border: 1px solid #aaa;
+                height: 33px;
+            }
+        }
+    }
+    .url-list {
+        p, span {
+            display: inline-block;
+            min-width: 120px;
+            text-align: center;
+        }
+        span {
+            color: #0083b0;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .save-list {
+        p, span {
+            display: inline-block;
+            min-width: 60px;
+            text-align: center;
+        }
+        span {
+            cursor: pointer;
+            color: #0083b0;
+        }
+    }
+    .page {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+    .formBtn {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+        
+    .comBtn {
+        margin: 0 5px;
+    }
+}

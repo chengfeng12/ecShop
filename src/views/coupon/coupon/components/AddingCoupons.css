@@ -1,0 +1,365 @@
+.container {
+    position: relative;
+}
+
+.container .redu-bread {
+    line-height: 30px;
+    height: 30px;
+}
+
+.container .redu-content {
+    padding: 20px 20px 100px 20px;
+}
+
+.container .redu-content .ivu-tabs {
+    overflow: inherit;
+}
+
+.container .redu-inset {
+    border: 1px solid #aeaeae;
+    background: #fff;
+}
+
+.container .star {
+    color: red;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.container .redu-title {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background: #f1f1f1;
+}
+
+.container .inset-content {
+    background: #fff;
+    padding-top: 18px;
+}
+
+.container .inset-content .treeselect {
+    width: 400px;
+    z-index: 10;
+}
+
+.container .high-opation {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container .set {
+    width: 600px;
+    padding: 20px 20px 20px 10px;
+    margin-bottom: 10px;
+    border: 1px dashed #aeaeae;
+    background: #f2f2f2;
+}
+
+.container .formBtn {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container .comBtn {
+    margin: 0 5px;
+}
+
+.container .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+}
+
+.container .time-set {
+    width: 700px;
+    height: 300px;
+    border: 1px solid #aeaeae;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+}
+
+.container .set-title {
+    padding: 8px;
+    font-size: 14px;
+    background: #2688fb;
+    color: #fff;
+}
+
+.container .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.container .choose-week {
+    border-bottom: 1px solid #aeaeae;
+    padding: 30px 0 0 0;
+}
+
+.container .week-btn {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.bgColor {
+    background: #2688fb;
+    color: #fff;
+}
+
+.container .rule-box {
+    width: 600px;
+    height: 120px;
+    border: 1px dashed #aeaeae;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.container .rule-box .rule-left {
+    width: 100px;
+    height: 64px;
+    float: left;
+    margin-top: 10px;
+}
+
+.container .rule-box .rule-left .fulldata-div {
+    height: 32px;
+    line-height: 32px;
+}
+
+.container .rule-box .rule-left {
+    height: 64px;
+    ;
+}
+
+.container .rule-box .rule-left div:nth-child(1) {
+    margin-bottom: 7px;
+}
+
+.container .rule-box .rule-right {
+    float: left;
+    margin-top: 10px;
+}
+
+.container .rule-box .rule-right div:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.container .rule-box .rule-box-part {
+    position: absolute;
+    height: 47px;
+    width: 43px;
+    left: 220px;
+    top: 33px;
+    border-top: 1px dashed #aeaeae;
+    border-bottom: 1px dashed #aeaeae;
+    border-right: 1px dashed #aeaeae;
+}
+
+.container .rule-box .rule-box-part div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 32px;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: #333333;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container .rule-box1 {
+    width: 800px;
+    height: 350px;
+    border: 1px dashed #aeaeae;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.container .rule-lf {
+    float: left;
+    left: 10px;
+    padding-right: 30px;
+}
+
+.container .rule-lf div p:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.container .rule-lf .rule-lf-t div {
+    display: inline;
+}
+
+.container .rule-title {
+    width: 500px;
+    float: left;
+    left: 10px;
+    /* background : yellow; */
+    padding-right: 30px;
+    border-right: 1px dashed #aeaeae;
+}
+
+.container .rule-title1 {
+    overflow: hidden;
+}
+
+.container .rule-title1-l {
+    float: left;
+    margin-left: 50px;
+}
+
+.container .rule-title1-r {
+    float: left;
+    margin-left: 50px;
+}
+
+.container .rule-lf>p {
+    padding: 5px;
+}
+
+.container .rule-rt {
+    float: left;
+    margin: 37px 0 0 70px;
+}
+
+.container .star_1 {
+    color: #aeaeae;
+    font-size: 14px;
+}
+
+.container .rule-title1 {
+    float: left;
+}
+
+.formItem-div {
+    height: 33px;
+    margin-bottom: 25px;
+}
+
+.formItem-div label {
+    width: 70px;
+    float: left;
+    margin-top: 0px !important;
+}
+
+.formItem-div .item-div {
+    float: left;
+}
+
+.validity-div {
+    height: 210px;
+}
+
+.validity-div .validity-left {
+    float: left;
+    width: 185px;
+}
+
+.validity-div .validity-right {
+    float: left;
+    width: 552px;
+}
+
+.redu-box .couponImg {
+    width: 740px;
+    height: 90px;
+    margin-left: 10px;
+}
+
+.redu-box .couponImg .couponImg_item {
+    width: 230px;
+    height: 90px;
+    float: left;
+}
+
+.redu-box .couponImg .couponImg_item div {
+    float: left;
+}
+
+.redu-box .couponImg .couponImg_item:nth-child(2) {
+    margin: 0 25px;
+}
+
+.redu-box .couponImg .couponImg_item .couponImg_title {
+    width: 60px;
+    text-align: center;
+    font-size: 12px;
+    color: #515a6e;
+    margin-right: 8px;
+}
+
+.redu-box .couponImg .couponImg_item .couponImg_title span {
+    text-align: center;
+}
+
+.redu-box .couponImg .couponImg_item .couponImg_content {
+    width: 160px;
+    height: 90px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    position: relative;
+}
+
+.redu-box .couponImg .couponImg_item .couponImg_content img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.redu-box .couponImg .couponImg_item .couponImg_content .couponImg_add {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: block;
+    width: 160px;
+    height: 90px;
+    font-size: 18px;
+    line-height: 90px;
+    z-index: 20;
+    text-align: center;
+}
+
+.redu-box .couponImg .couponImg_item .couponImg_content .couponImg_delete {
+    position: absolute;
+    font-size: 18px;
+    right: -10px;
+    top: -14px;
+    z-index: 30;
+}

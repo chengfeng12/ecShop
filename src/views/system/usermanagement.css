@@ -1,0 +1,85 @@
+.currentTitle{
+  font-size: 13px;
+  color: #000;
+  padding: 4px 0;
+  background: #f8fbfb;
+}
+
+.user .ivu-card-head {
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.user .ivu-card-head p {
+    height: auto;
+  }
+  
+  .user .ivu-input-wrapper {
+    width: 162px;
+  }
+  
+  .user .useraction {
+    margin-top: 15px;
+  }
+  
+  .user .useraction .useraction_l {
+    float: left;
+  }
+  
+  .user .useraction .useraction_r {
+    float: right;
+  }
+  
+
+  .userBtn {
+    padding-right:16px;
+    position: relative;
+  }  
+  .userBtn:after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: rgb(0, 131, 176);
+    position: absolute;
+    right: 8px;
+    top: 0px;
+  }
+  
+  .cursoruser {
+    cursor: pointer;
+  }
+
+  .usershow{
+    height: 400px;
+    overflow-y: auto;
+    
+  }
+  .usershow .ivu-tree ul {
+    font-size: 14px;
+  }
+  .user .user-span {
+    color: #515a6e;
+    font-size: 12px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 50px;
+  }
+  .user .search-div{
+    width: 100%;
+    overflow: hidden;
+
+    
+  }
+
+  .user .search-div .search-btn{
+    width: 30%;
+    float: left;
+  }
+  .user .search-div .search-input{
+    width: 70%;
+    float: left;
+  }
+  .user .search-div .search-input-item{
+    width:300px; 
+    float: left;
+    margin-bottom: 5px;
+  }

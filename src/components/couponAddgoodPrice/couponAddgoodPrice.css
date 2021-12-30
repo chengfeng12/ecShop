@@ -1,0 +1,244 @@
+.ivu-modal-header{
+  border-bottom: 1px solid #e8eaec;
+  padding: 14px 16px;
+  line-height: 1;
+  background: #0083b0;
+}
+.ivu-modal-header p, .ivu-modal-header-inner{
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.couponAddGood .ivu-table-body{
+  overflow: scroll;
+}
+.tablepage .goodslist {
+  max-width: 1000px;
+}
+
+.tablepage .goodslist .goodslist-item {
+  width: 760px;
+  height: 120px;
+  padding: 10px;
+
+  border: 1px solid #ddd;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.tablepage .goodslist .goodslist-item .goodslist-delete {
+  position: absolute;
+  right: -5px;
+  top: -12px;
+  width: 20px;
+  height: 20px;
+  line-height: 0;
+  font-size: 25px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.tablepage .goodslist .goodslist-item .goodslist-item-l {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.tablepage .goodslist .goodslist-item .goodslist-item-l img {
+  height: 100px;
+  width: 100px;
+}
+
+.tablepage .goodslist .goodslist-item .goodslist-item-r {
+  float: left;
+  margin-left: 10px;
+}
+
+.tablepage .goodslist .goodslist-item .goodslist-item-r div {
+  margin-bottom: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.table-popup-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.tablepage .table-popup-container .table-popup-content {
+  padding:0;
+  width: 880px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #f8fbfb;
+}
+
+.table-popup-container .table-popup-content .tablePage-bottomall {
+  display: flex;
+  padding: 0 20px;
+}
+.btnPage {
+  width: 100%;
+}
+.btnAction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.title-cag {
+  overflow: hidden;
+  background: #0083b0;
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+
+.tables {
+  margin: 15px 0;
+}
+
+.table-popup-tit div:nth-child(1) {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+}
+
+.table-popup-tit div:nth-child(2) {
+  float: right;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+
+}
+
+.addGoods {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.tablePage{
+  padding: 20px;
+}，
+.tablePage .search-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.specificationtable {
+  color: #515a6e;
+  border-top: 1px solid #dcdee2;
+  border-left: 1px solid #dcdee2;
+}
+
+.specificationtable .specificationthead {
+  overflow: hidden;
+  background-color: #f8f8f9;
+  color: #515a6e;
+  display: flex;
+}
+
+.specificationtable .specificationthead div {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #e8eaec;
+  border-bottom: 1px solid #e8eaec;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.specificationtable .specificationthead div:nth-child(1) {
+  flex:2
+}
+
+.specificationtable .specificationthead div:nth-child(2) {
+  flex:1
+}
+
+.specificationtable .specificationthead div:nth-child(3) {
+  flex:1
+}
+
+.specificationtable .specificationthead div:nth-child(4) {
+  flex:1
+}
+
+.specificationtbody-item {
+  overflow: hidden;
+  display: flex;
+}
+
+.specificationtbody-item div {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #e8eaec;
+  border-bottom: 1px solid #e8eaec;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+}
+
+.specificationtbody-item div:nth-child(1) {
+  flex:2
+}
+
+.specificationtbody-item div:nth-child(2) {
+  flex:1
+}
+
+.specificationtbody-item div:nth-child(3) {
+  flex:1
+}
+
+.specificationtbody-item div:nth-child(4) {
+  flex:1
+}
+
+.specificationtbody-item div:nth-child(4) label>span:nth-child(2) {
+  display: none
+}
+
+.scrollBar-line{
+  overflow:hidden;
+  overflow-y:auto;
+}
+
+.scrollBar-line::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 4px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 4px;
+  border-radius: 8px;
+}
+
+.scrollBar-line::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.scrollBar-line::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+}

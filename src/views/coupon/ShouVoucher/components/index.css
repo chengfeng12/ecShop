@@ -1,0 +1,159 @@
+.container {
+    position: relative;
+    }
+    
+    
+    .container .redu-bread {
+    line-height: 30px;
+    height: 30px;
+    }
+    
+    .container .redu-inset {
+    background: #fff;
+    }
+    
+    .container .redu-title {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background: #f1f1f1;
+    }
+    
+    .container .inset-content {
+    padding: 40px 0 80px 50px;
+    background: #fff;
+    }
+    
+    .container .high-opation {
+    padding: 10px;
+    cursor: pointer;
+    }
+    
+    .container .set {
+    width: 600px;
+    padding: 20px 20px 20px 10px;
+    border: 1px dashed #aeaeae;
+    background: #f2f2f2;
+    }
+    
+    .container .formBtn {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    }
+    
+    .container .comBtn {
+    margin: 0 5px;
+    }
+    
+    .container .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+    }
+    
+    .container .time-set {
+    width: 700px;
+    height: 300px;
+    border: 1px solid #aeaeae;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    }
+    
+    .container .set-title {
+    padding: 8px;
+    font-size: 14px;
+    background: #2688fb;
+    color: #fff;
+    }
+    
+    .container .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    }
+    
+    .container .choose-week {
+    border-bottom: 1px solid #aeaeae;
+    padding: 30px 0 0 0;
+    }
+    
+    .container .week-btn {
+    width: 70px;
+    margin-right: 10px;
+    }
+    
+    .bgColor {
+    background: #2688fb;
+    color: #fff;
+    }
+    
+    .container .rule-box {
+    width: 500px;
+    height: 110px;
+    border: 1px dashed #aeaeae;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px 0;
+    box-sizing: border-box;
+    }
+    
+    .container .rule-lf,
+    .container .rule-rt {
+    position: absolute;
+    }
+    
+    .container .rule-lf {
+    left: 10px;
+    padding-right: 30px;
+    border-right: 1px dashed #aeaeae;
+    }
+    
+    .container .rule-lf > p {
+    padding: 5px;
+    }
+    
+    .container .rule-rt {
+    right: 46px;
+    top: 38px;
+    }
+    
+    .container .select-discount {
+        margin-bottom: 10px;
+    }
+    
+    .issuing-voucher-one {
+        display: inline-block;
+    }
+    .issuing-voucher-two {
+        display: inline-block;
+    }
+    .radio-box {
+        margin-bottom: 10px;
+    }
+
+    .container .currentTitle {
+        font-size: 13px;
+        padding: 4px 0;
+        background: #f8fbfb;
+    }
+    .container .currentTitle label {
+        font-size: 14px;
+        color: #000;
+    }

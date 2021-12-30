@@ -1,0 +1,111 @@
+.data-t {
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+  }
+  
+  .bottom {
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+  
+    .bottoms {
+      margin-top: 30px;
+      border-bottom: 1px solid #cccccc;
+      padding-bottom: 20px;
+      .bottom-t {
+        padding: 10px;
+        border-bottom: 1px solid #cccccc;
+      }
+      .word {
+        margin-left: 10px;
+        color: rgb(17, 148, 246);
+      }
+    }
+  
+    .bottom-info {
+      margin: 30px;
+    }
+  }
+  .bottom .download {
+    font-size: 12px;
+    color: rgb(17, 148, 246);
+    text-decoration: underline;
+  }
+  .select {
+    margin-right: 20px;
+    float: right;
+  }
+  .main-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    .left {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      .prefix {
+        font-size: 12px;
+        color: rgb(17, 148, 246);
+        // display: inline-block;
+        // min-width: 120px;
+      }
+    }
+  }
+  .main-echarts {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .echarts-box {
+      width: 100%;
+      border: 1px solid #ccc;
+      padding: 20px 10px;
+  
+      &:nth-child(2) {
+        margin-left: 20px;
+      }
+      .main-top {
+        margin: 0;
+        padding-bottom: 10px;
+      }
+      .echart-data {
+        width: 100%;
+      }
+    }
+  }
+  
+  .main {
+    margin-top: 20px;
+    .main-head {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      justify-content: space-between;
+      border: 1px solid #ccc;
+      padding: 20px;
+      .con-item {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        border-right: 1px solid #ccc;
+        padding: 30px;
+        &:nth-child(6) {
+          border-right: none;
+        }
+        .up {
+          color: red;
+        }
+        .re {
+          color: #008000;
+        }
+        .refund {
+          color: #cccccc;
+        }
+      }
+    }
+  }

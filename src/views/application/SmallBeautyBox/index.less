@@ -1,0 +1,19 @@
+#application {
+    .currentTitle{
+        font-size: 13px;
+        padding: 4px 0;
+        background: #f8fbfb;
+        color: #000;
+    }
+    .footer {
+        margin-top: 20px;
+        .page {
+          float: right;
+        }
+        &::after {
+          content: "";
+          display: block;
+          clear: both;
+        }
+    }
+}

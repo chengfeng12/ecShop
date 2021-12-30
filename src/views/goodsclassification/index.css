@@ -1,0 +1,186 @@
+#goods-class {
+    /* margin       : 20px; */
+    background-color: #fff;
+    min-width: 700px;
+}
+
+.operationList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0083b0;
+}
+
+.operationList p {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.currentTitle {
+    font-size: 13px;
+    padding: 4px 0;
+    background: #f8fbfb;
+    color: #000;
+}
+
+#goods-class .content {
+    padding: 15px 0px;
+    margin: -16px;
+}
+
+#goods-class .content .con-title {
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#goods-class .content .title-span {
+    color: #fff;
+}
+
+#goods-class .con-table {
+    margin: 0 10px;
+}
+
+.tables {
+    margin-top: 19px;
+}
+
+.tables ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* justify-content:flex-start;  */
+}
+
+.tables ul li {
+    text-align: center;
+    font-size: 12px;
+    border-left: 1px solid #e8eaec;
+    border-top: 1px solid #e8eaec;
+}
+
+.tables .header ul {
+    background-color: rgb(248, 248, 249);
+}
+
+.tables .header ul li {
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.tables ul .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tables ul li:nth-child(1) {
+    width: 10%;
+    padding: 10px 0;
+}
+
+.tables ul li:nth-child(2) {
+    width: 20%;
+}
+
+.tables ul li:nth-child(3) {
+    width: 14%;
+}
+
+.tables ul li:nth-child(4) {
+    width: 10%;
+}
+
+.tables ul li:nth-child(5) {
+    width: 23%;
+}
+
+.tables ul li:nth-child(6) {
+    width: 23%;
+    border-right: 1px solid #e8eaec;
+}
+
+.tables ul li .img {
+    height: 70px;
+}
+
+.tables .body ul:last-child {
+    border-bottom: 1px solid #e8eaec;
+}
+
+.tables .body ul .child-icon {
+    margin-right: 10px;
+}
+
+.tables .body .bg-color {
+    background-color: rgb(248, 248, 249);
+}
+
+.tables .body ul:hover {
+    background-color: rgb(235, 247, 255);
+}
+
+
+/* 图标 */
+
+.icon-table {
+    /* display  : inline-block; */
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 5px;
+}
+
+.pop-i {
+    width: 260px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 60px;
+}
+
+.tips {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 14px;
+    background-image: url('../../assets/images/u368.png');
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.pop-i span {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+#goods-class .footer {
+    padding: 20px 10px 20px;
+}
+
+#goods-class .footer .preserve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#goods-class .footer .page {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.border-right {
+    border-right: 1px solid #0083b0;
+}
+
+.border-left {
+    border-left: 1px solid #0083b0;
+}
+
+.border-none {
+    border: none;
+}

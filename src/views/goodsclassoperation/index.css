@@ -1,0 +1,151 @@
+#add-class {
+  /* margin       : 20px; */
+  background-color: #fff;
+  min-width: 1050px;
+}
+
+#add-class .add-con-box {
+  padding: 10px;
+}
+
+#add-class .title {
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+#add-class .content-war {
+  margin-bottom: 15px;
+}
+
+#add-class .content-war span {
+  font-size: 12px;
+}
+
+#add-class .content-war .content-war-span {
+  display: inline-block;
+  width: 108px;
+  height: 32px;
+  line-height: 32px;
+  text-align: right;
+  margin-right: 14px;
+}
+
+#add-class .content-war p {
+  margin-left: 122px;
+  padding: 8px 0 0 0;
+  color: #888;
+}
+
+#add-class .img-add {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px dotted #ccc;
+  border-radius: 5px;
+}
+
+#add-class .img-add i {
+  font-size: 20px;
+}
+
+
+#add-class .select-btn {
+  margin-left: 122px;
+  margin-bottom: 10px;
+}
+
+#add-class .select-single {
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+#add-class .img-left {
+  float: left;
+}
+
+#add-class .img-left img {
+  display: inline-block;
+  height: 60px;
+  width: 100px;
+}
+
+#add-class .img-box img {
+  height: 100px;
+  width: 130px;
+}
+
+#add-class .con-right {
+  float: left;
+  margin-left: 30px;
+}
+
+#add-class .input-box {
+  font-size: 0;
+}
+
+#add-class .con-right .input {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+#add-class .con-right p {
+  margin: 5px 0;
+}
+
+#add-class .select-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  right: 0px;
+  top: 0px;
+}
+
+#add-class .icon-bg {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#add-class .add-img {
+  margin-left: 122px;
+  text-align: center;
+}
+
+#add-class .border-img {
+  border: 1px solid #ccc;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+#add-class .border-img i {
+  font-size: 26px;
+  margin-right: 5px;
+}
+
+#add-class .footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#add-class .footer button {
+  margin-right: 5px;
+  width: 80px;
+}
+
+/* 图片选择的样式 */
+#add-class .add-img-box .info {
+  display: none;
+}
+
+/* 地址跳转 */
+#add-class .add-url-jump .url-button {
+  display: none;
+}

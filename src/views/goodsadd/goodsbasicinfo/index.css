@@ -1,0 +1,152 @@
+#basic-info {
+  padding-bottom: 40px;
+}
+
+#basic-info .title {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  background: #f1f1f1;
+}
+
+#basic-info .content-war {
+  margin-bottom: 15px;
+}
+
+#basic-info .content-war span {
+  font-size: 12px;
+}
+
+#basic-info .content-war .content-war-div {
+  display: inline-block;
+}
+
+#basic-info .content-war .content-war-span {
+  display: inline-block;
+  width: 84px;
+  height: 32px;
+  line-height: 32px;
+  text-align: right;
+  margin-right: 14px;
+}
+
+#basic-info .content-war p {
+  margin-left: 100px;
+  padding: 8px 0 0 0;
+  color: #888;
+}
+
+
+#basic-info .basic-content {
+  margin-bottom: 15px;
+}
+
+#basic-info .but,
+#basic-info .display-in-blo {
+  display: inline-block;
+}
+
+#basic-info .but .info {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+
+#basic-info .area-war {
+  position: relative;
+  font-size: 0;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+#basic-info .firstImg,
+#basic-info .margin-left {
+  margin-left: 100px;
+}
+
+/* 图片 */
+#basic-info .banner-img {
+  list-style: none;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+#basic-info .banner-img li {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 21px 21px 21px 0px;
+  float: left;
+  position: relative;
+}
+
+#basic-info .banner-img li img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#basic-info .banner-img li div {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: -15px;
+  right: 0;
+  font-size: 18px;
+}
+
+
+#basic-info .upload-img-but {
+  float: right;
+}
+
+#basic-info .search-head {
+  border-bottom: 1px solid #e8eaec;
+  padding-bottom: 20px;
+}
+
+#basic-info .content-war .add-long-p {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 0;
+  width: 70%;
+  vertical-align: top;
+  color: #555;
+}
+
+#basic-info .content-war .add-long-p .area-span {
+  padding: 0 8px;
+}
+
+#basic-info .area {
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+#basic-info .margin-left {
+  margin-top: 10px;
+}
+
+#basic-info .margin-left p {
+  margin: 0;
+}
+
+#basic-info .upper-shelf-time {
+  vertical-align: middle;
+}
+
+#basic-info .video-box {
+  position: relative;
+}
+#basic-info .video-box div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+#basic-info .video-box div .del-icon {
+  font-size: 18px;
+}
